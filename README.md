@@ -38,7 +38,7 @@
 
 <h2 id="project-screenshots">📸 Project Screenshots:</h2>
 
-<img src="https://i.imghippo.com/files/keGji1721741191.png" alt="project-screenshot">
+<img align="center" src="https://i.imghippo.com/files/keGji1721741191.png" alt="project-screenshot">
 
 <img src="https://i.imghippo.com/files/lkF2q1721741199.png" alt="project-screenshot">
 
