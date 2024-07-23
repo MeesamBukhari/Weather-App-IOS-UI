@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Weather App | IOS UI</title>
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="favicons/safari-pinned-tab.svg"
+      color="#878787"
+    />
+    <link rel="shortcut icon" href="favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-config" content="favicons/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body class="flex flex-col min-h-screen bg-gray-100 dark:bg-gray-900">
+    <div class="flex-grow flex items-center justify-center">
+      <div
+        class="max-w-md p-6 bg-white border border-gray-200 rounded-lg shadow-lg dark:bg-gray-800 dark:border-gray-700"
+        style="min-width: 240px"
+      >
+        <div class="mb-4">
+          <h2 class="text-xl font-semibold text-gray-800 dark:text-white">
+            Weather App
+          </h2>
+          <div class="flex items-center">
+            <svg
+              class="w-6 h-6 text-gray-600 dark:text-gray-400"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="12" cy="12" r="3"></circle>
+              <path d="M12 1v2"></path>
+              <path d="M12 21v2"></path>
+              <path d="M4.22 4.22l1.42 1.42"></path>
+              <path d="M18.36 18.36l1.42 1.42"></path>
+              <path d="M1 12h2"></path>
+              <path d="M21 12h2"></path>
+              <path d="M4.22 19.78l1.42-1.42"></path>
+              <path d="M18.36 5.64l1.42-1.42"></path>
+            </svg>
+            <span class="ml-1 text-sm text-gray-600 dark:text-gray-400"
+              >New York, NY</span
+            >
+          </div>
+        </div>
+        <div class="flex items-center justify-between">
+          <div>
+            <h3 class="text-4xl font-bold text-gray-800 dark:text-white">
+              25°C
+            </h3>
+            <p class="text-sm text-gray-600 dark:text-gray-400">
+              Partly Cloudy
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://placehold.co/64x64/eeeeee/4B5563/png?text=icon"
+              alt="Weather Icon"
+              class="w-16 h-16"
+            />
+          </div>
+        </div>
+        <div class="mt-6">
+          <div class="flex items-center justify-between mb-2">
+            <div class="flex items-center">
+              <svg
+                class="w-6 h-6 text-gray-600 dark:text-gray-400"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+              <span class="ml-2 text-sm text-gray-600 dark:text-gray-400"
+                >Wind</span
+              >
+            </div>
+            <span class="text-sm text-gray-600 dark:text-gray-400"
+              >10 km/h</span
+            >
+          </div>
+          <div class="flex items-center justify-between mb-2">
+            <div class="flex items-center">
+              <svg
+                class="w-6 h-6 text-gray-600 dark:text-gray-400"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="3"></circle>
+                <path d="M12 1v2"></path>
+                <path d="M12 21v2"></path>
+                <path d="M4.22 4.22l1.42 1.42"></path>
+                <path d="M18.36 18.36l1.42 1.42"></path>
+                <path d="M1 12h2"></path>
+                <path d="M21 12h2"></path>
+                <path d="M4.22 19.78l1.42-1.42"></path>
+                <path d="M18.36 5.64l1.42-1.42"></path>
+              </svg>
+              <span class="ml-2 text-sm text-gray-600 dark:text-gray-400"
+                >Humidity</span
+              >
+            </div>
+            <span class="text-sm text-gray-600 dark:text-gray-400">60%</span>
+          </div>
+          <div class="flex items-center justify-between">
+            <div class="flex items-center">
+              <svg
+                class="w-6 h-6 text-gray-600 dark:text-gray-400"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+              <span class="ml-2 text-sm text-gray-600 dark:text-gray-400"
+                >UV Index</span
+              >
+            </div>
+            <span class="text-sm text-gray-600 dark:text-gray-400">5</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer
+      class="bg-midnightExpress dark:bg-darkTangerine dark:text-midnightExpress py-2 text-darkTangerine text-center font-bold"
+    >
+      &copy; <span id="year">2024</span>
+      <a
+        href="https://linkedin.com/in/MeesamBukhari/"
+        class="hover:text-pumpkin dark:hover:text-desaturatedPink"
+        target="_blank"
+        >Meesam Bukhari</a
+      >
+      | All Rights Reserved
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
