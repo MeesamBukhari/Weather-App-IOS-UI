@@ -32,7 +32,7 @@
 
 <!-- [Live Demo](https://crypto-wallet-mb.vercel.app/)* -->
 
-<a href="https://ios-weather-app-mb.vercel.app/" target="_blank">
+<a href="https://ios-weather-app-mb.vercel.app/">
     <img alt="Live Demo" src="https://img.shields.io/badge/Live_Demo-blue" target="_blank"/>
 </a>
 
